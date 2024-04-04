@@ -45,17 +45,19 @@ header {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #A3A3A3;
-	display: none;
+	visibility: hidden;
+	opacity: 0%;
+	transition-duration: 0.5s;
 }
 .thumbnail:hover .text_column{
 	height: 200px;
-	display: block;
+	opacity: 90%;
+	visibility: visible;
 	
 }
 .thumbnail:hover .cards{
 	width: 20px;
 }
-
 
 .gallery {
 	clear: both;
@@ -120,7 +122,7 @@ header {
 	max-width: 150px;
 	max-height: 200px;
 	opacity: 1;
-	transition-duration: 1s ;
+	transition-duration: 0.8s ;
 }
 .intro .column p {
 	padding-left: 30px;
